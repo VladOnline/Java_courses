@@ -4,16 +4,16 @@ public class View {
 
 
     protected void FirstPrint(){
-        System.out.println("Enter Hello!");
+        System.out.println("Enter Hello");
     }
     protected void SecontPrint(){
-        System.out.println("Enter Word");
+        System.out.println("Enter World!");
     }
     protected void  WrongDate(){
         System.out.println("You enter wrong date");
     }
     protected void EndPrint(String FirsWord , String SecondWord ){
-        System.out.println(FirsWord + ""+ SecondWord);
+        System.out.println(FirsWord + " "+ SecondWord);
     }
 
 }

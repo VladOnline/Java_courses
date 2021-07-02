@@ -14,7 +14,7 @@ public class Controller {
         view.FirstPrint();
         model.setFirstWorld(CheckWorld("Hello"));
         view.SecontPrint();
-        model.setSeconWorld(CheckWorld("Word!"));
+        model.setSeconWorld(CheckWorld("World!"));
         view.EndPrint(model.getFirstWorld() , model.getSeconWorld());
     }
 
